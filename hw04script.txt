@@ -1,0 +1,284 @@
+Script started on 2021-03-30 12:30:05-0500
+]0;pkwok@turing: ~/hw04pkwok@turing:~/hw04$ python3 hw04.py
+Please Choose the following option: 
+1. Find all suppliers and coffee names
+2. Add new supplier
+3. List item sold by a specific employee
+4. Update item
+5. Cancel Sales
+6. Exit
+>>> afsaf
+integer only...
+>>> 1
+ 
+Option 1: 
+Name of the Country: 
+Indonesia
+ 
+=================================================================
+
+Query Result:
+
+  ID  SUPPLIER_NAME      PHONE_NUMBER  COFFEE_NAME    ROASTING_TYPE
+----  ---------------  --------------  -------------  ---------------
+   5  MERDEKA COFFEE    +622187962386  SUMATRA GAYO   D
+ 
+=================================================================
+ 
+Please Choose the following option: 
+1. Find all suppliers and coffee names
+2. Add new supplier
+3. List item sold by a specific employee
+4. Update item
+5. Cancel Sales
+6. Exit
+>>> 1
+ 
+Option 1: 
+Name of the Country: 
+lalalal
+ 
+=================================================================
+
+Query Result:
+
+ID    SUPPLIER_NAME    PHONE_NUMBER    COFFEE_NAME    ROASTING_TYPE
+----  ---------------  --------------  -------------  ---------------
+ 
+No Supplier
+ 
+=================================================================
+ 
+Please Choose the following option: 
+1. Find all suppliers and coffee names
+2. Add new supplier
+3. List item sold by a specific employee
+4. Update item
+5. Cancel Sales
+6. Exit
+>>> 2
+ 
+Option 2: 
+this is the ID for new supplier:  19
+ 
+Enter a new supplier name: 
+BABA COFFEE
+ 
+Enter the supplier phone number: 
+62818989876
+ 
+Enter the supplier country: 
+EGYPT
+ 
+=================================================================
+
+Query Result:
+
+  ID  NAME           PHONE_NUMBER  COUNTRY
+----  -----------  --------------  ---------
+  19  BABA COFFEE     62818989876  EGYPT
+ 
+what coffee can you provide: 
+1. ANTIGUA
+2. HAMBELA KIRITE
+3. KHAWLANI
+4. MOGIANA
+5. ALWADI
+6. VOLCANICA SUPREMO
+7. PNG
+8. SUMATRA GAYO
+9. ARABICA
+10. GENERAL MERCHANDISE
+11. SIDAMO
+12. GHIMBI
+13. ALDURRAR
+>>> 1
+
+Query Result:
+
+SUPPLIERS_WHO_SELL_ANTIGUA
+----------------------------
+KAFETOS COFFEE
+BABA COFFEE
+
+Data added to Inventory_mgmt
+ 
+=================================================================
+ 
+Please Choose the following option: 
+1. Find all suppliers and coffee names
+2. Add new supplier
+3. List item sold by a specific employee
+4. Update item
+5. Cancel Sales
+6. Exit
+>>> 3
+ 
+Option 3: 
+Name of the employee: 
+emily
+ 
+=================================================================
+
+Query Result:
+
+COFFEE_NAME          ROASTING_TYPE      TOTAL_SALES
+-------------------  ---------------  -------------
+ANTIGUA              M                            1
+KHAWLANI             L                            1
+MOGIANA              M                            1
+ALWADI               L                            1
+VOLCANICA SUPREMO    D                            1
+SUMATRA GAYO         D                            1
+GENERAL MERCHANDISE                               1
+ 
+=================================================================
+ 
+Please Choose the following option: 
+1. Find all suppliers and coffee names
+2. Add new supplier
+3. List item sold by a specific employee
+4. Update item
+5. Cancel Sales
+6. Exit
+>>> 3
+ 
+Option 3: 
+Name of the employee: 
+john
+ 
+=================================================================
+
+Query Result:
+
+COFFEE_NAME    ROASTING_TYPE    TOTAL_SALES
+-------------  ---------------  -------------
+ 
+No items sold by this employee
+ 
+=================================================================
+ 
+Please Choose the following option: 
+1. Find all suppliers and coffee names
+2. Add new supplier
+3. List item sold by a specific employee
+4. Update item
+5. Cancel Sales
+6. Exit
+>>> 4
+ 
+Option 4: 
+Enter the name of the item: 
+ANTIGUA
+ 
+=================================================================
+
+Query Result:
+
+NAME       TOTAL_AVAILABLE
+-------  -----------------
+ANTIGUA                 30
+ 
+Type "sale" if you made a sale, or type "shipment" if you recieved a shipment: sale
+
+Enter the quantity of items sold: 20
+ 
+
+Query Result:
+
+NAME       TOTAL_AVAILABLE
+-------  -----------------
+ANTIGUA                 10
+
+ 
+=================================================================
+ 
+Please Choose the following option: 
+1. Find all suppliers and coffee names
+2. Add new supplier
+3. List item sold by a specific employee
+4. Update item
+5. Cancel Sales
+6. Exit
+>>> 4
+ 
+Option 4: 
+Enter the name of the item: 
+alwadi
+ 
+=================================================================
+
+Query Result:
+
+NAME      TOTAL_AVAILABLE
+------  -----------------
+ALWADI                 44
+ 
+Type "sale" if you made a sale, or type "shipment" if you recieved a shipment: balala
+
+choice is invalid, please try again
+ 
+=================================================================
+ 
+Please Choose the following option: 
+1. Find all suppliers and coffee names
+2. Add new supplier
+3. List item sold by a specific employee
+4. Update item
+5. Cancel Sales
+6. Exit
+>>> 4
+ 
+Option 4: 
+Enter the name of the item: 
+alwadi
+ 
+=================================================================
+
+Query Result:
+
+NAME      TOTAL_AVAILABLE
+------  -----------------
+ALWADI                 44
+ 
+Type "sale" if you made a sale, or type "shipment" if you recieved a shipment: shipment
+
+Enter the quantity of items bought:46
+
+Query Result:
+
+NAME      TOTAL_AVAILABLE
+------  -----------------
+ALWADI                 90
+ 
+=================================================================
+ 
+Please Choose the following option: 
+1. Find all suppliers and coffee names
+2. Add new supplier
+3. List item sold by a specific employee
+4. Update item
+5. Cancel Sales
+6. Exit
+>>> 5
+ 
+Option 5: 
+ 
+=================================================================
+
+NOT BUILD YET (IN PROGRESS)
+ 
+=================================================================
+ 
+Please Choose the following option: 
+1. Find all suppliers and coffee names
+2. Add new supplier
+3. List item sold by a specific employee
+4. Update item
+5. Cancel Sales
+6. Exit
+>>> 6
+Goodbye
+]0;pkwok@turing: ~/hw04pkwok@turing:~/hw04$ exit
+
+Script done on 2021-03-30 12:33:23-0500
